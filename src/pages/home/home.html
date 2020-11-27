@@ -4,15 +4,64 @@
       <ion-icon name="menu"></ion-icon>
     </button>
     <ion-title>Home</ion-title>
+    <!-- <ion-buttons end>
+      <fa-icon [icon]="['fas', 'graduation-cap']" slot="end"></fa-icon>
+    </ion-buttons> -->
   </ion-navbar>
 </ion-header>
+<img src="../../assets/imgs/download1.jpeg" alt="" class="w-100 banner-image">
 
-<ion-content padding>
-  <h3>Ionic Menu Starter</h3>
-
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will show you the way.
-  </p>
-
-  <button ion-button secondary menuToggle>Toggle Menu</button>
+<ion-content>
+  <div class="page-content">
+    <div class="p-3 text-center border-bottom font-sm font-weight-bold">
+      Economy Package
+    </div>
+    <div class="p-2 text-center font-xs font-weight-bold">
+      Please select a Package
+    </div>
+    <div class="rounded m-2 package-details pb-2 bg-dark mb-3">
+      <div class="row m-0">
+        <p class="col font-weight-bold font-sm">Economy Package</p>
+        <button class="btn-danger px-4 py-2 font-sm font-weight-bold mr-2 mt-2 rounded">ADD</button>
+      </div>
+      <div class="mt-4 mb-2">
+        <span class="font-md text-success font-weight-bold">$899</span>
+        <span class="font-xs text-black"><del>$999</del></span>
+        <span class="font-xs text-danger">Save 12%</span>
+      </div>
+    </div>
+    <mat-tab-group>
+      <mat-tab label="Inclusion">
+        <div class="row m-0">
+          <div class="col">
+            <div><i class="fa fa-check mr-2 text-success" aria-hidden="true"></i> ABC</div>
+            <div><i class="fa fa-check mr-2 text-success" aria-hidden="true"></i> ABC</div>
+            <div><i class="fa fa-check mr-2 text-success" aria-hidden="true"></i> ABC</div>
+            <div><i class="fa fa-check mr-2 text-success" aria-hidden="true"></i> ABC</div>
+          </div>
+        </div>
+      </mat-tab>
+      <mat-tab label="Exclusion">
+        <div class="row m-0">
+          <div class="col">
+            <div><i class="fa fa-times mr-2 text-danger" aria-hidden="true"></i> ABC</div>
+            <div><i class="fa fa-times mr-2 text-danger" aria-hidden="true"></i> ABC</div>
+            <div><i class="fa fa-times mr-2 text-danger" aria-hidden="true"></i> ABC</div>
+            <div><i class="fa fa-times mr-2 text-danger" aria-hidden="true"></i> ABC</div>
+          </div>
+        </div>
+      </mat-tab>
+    </mat-tab-group>
+    <div>
+      <div class="font-md font-weight-bold p-2">How It Works</div>
+      <ul class="font-sm">
+        <li>Login</li>
+        <li>Chooose your preference</li>
+        <li>Do Purchase</li>
+      </ul>
+    </div>
+    <div class="bg-danger p-3 text-right">
+      <span class="">Go to Cart</span>
+    </div>
+  </div>
 </ion-content>

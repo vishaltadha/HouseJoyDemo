@@ -1,3 +1,14 @@
 page-home {
-
+    .banner-image {
+        position: absolute;
+        top: 0;
+        z-index: 1;
+        height: 150px;
+        margin-top: 56px;
+    }
+    .page-content {
+        margin-top: 150px;
+        background-color: black;
+        color: white;
+    }
 }
